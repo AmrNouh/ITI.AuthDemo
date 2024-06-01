@@ -1,0 +1,6 @@
+@ITI.AuthDemo.Client_HostAddress = http://localhost:5093
+
+GET {{ITI.AuthDemo.Client_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

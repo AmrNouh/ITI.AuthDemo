@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "ITI.AuthDemo.Client.Protos";
+
+
+service greaterService {
+	rpc Great (GreatRequest) returns (GreatResponse);
+}
+
+message GreatRequest {
+	string name = 1;
+}
+
+message GreatResponse {
+	string message = 1;
+}
